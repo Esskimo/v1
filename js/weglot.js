@@ -387,7 +387,7 @@ var Weglot = function () {
             var cssLink = document.createElement("link");
             cssLink.rel = "stylesheet";
             cssLink.type = "text/css";
-            cssLink.href = "../css/wg.min.css";
+            cssLink.href = "css/wg.min.css";
             document.getElementsByTagName("HEAD").item(0).appendChild(cssLink);
             var cssLink2 = document.createElement("link");
             cssLink2.rel = "stylesheet";
