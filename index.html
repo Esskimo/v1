@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="cs" prefix="og: http://ogp.me/ns#">
+<html lang="cs">
 
-<head>
+<head prefix="og: http://ogp.me/ns#">
+    <title>Jakub Štěrba | Programátor a vývojář - PHP, C++, Python</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Jakub Štěrba | Programátor a vývojář - PHP, C++, Python</title>
     <meta name="description"
-          content="Nadšenec do programování a vývoje v několika programovacích jazycích. Zároveň jsem majitel a zároveň zakladatel projektu BlackWidow.">
+        content="Nadšenec do programování a vývoje v několika programovacích jazycích. Zároveň jsem majitel a zároveň zakladatel projektu BlackWidow.">
     <meta name="author" content="Jakub Štěrba">
     <meta property="og:title" content="Jakub Štěrba | Programátor a vývojář - C++, Python, PHP">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://kubasterba.cz/">
+    <meta property="og:url" content="https://kubasterba.cz/">
     <meta property="og:site_name" content="Jakub Štěrba | Programátor a vývojář - C++, Python, PHP">
     <meta property="og:locale" content="cs">
     <meta property="og:description"
-          content="Nadšenec do programování a vývoje v několika programovacích jazycích. Zároveň jsem majitel a zároveň zakladatel projektu BlackWidow.">
+        content="Nadšenec do programování a vývoje v několika programovacích jazycích. Zároveň jsem majitel a zároveň zakladatel projektu BlackWidow.">
 
     <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -24,22 +23,17 @@
 
     <!-- Google font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
-
     <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Owl Carousel -->
-    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css"/>
-    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css"/>
-
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
     <!-- Magnific Popup -->
-    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css"/>
-
+    <link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
-
     <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/style.min.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,355 +42,355 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <script src="https://cdn.weglot.com/weglot.min.js"></script>
     <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-113873623-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-    <script src="js/weglot.min.js"></script>
-    <script>
-        Weglot.setup({
+        Weglot.initialize({
             api_key: 'wg_ef3003dc3d03ce6b0d343330560f1c3c',
-            originalLanguage: 'cs',
-            destinationLanguages: 'en',
-            position: 'left'
+            auto_switch: true,
+            auto_switch_fallback: "cs"
         });
     </script>
 
 </head>
 
 <body>
-<!-- Header -->
-<header id="home">
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('./img/background1.jpg');">
-        <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
-
-    <!-- Nav -->
-    <nav id="nav" class="navbar nav-transparent">
-        <div class="container">
-
-            <div class="navbar-header">
-                <!-- Logo -->
-                <div class="navbar-brand">
-                    <a id="home-logo">
-                        <img class="logo" src="img/logo.png" alt="logo">
-                        <img class="logo-alt" src="img/logo-alt.png" alt="logo-alt">
-                    </a>
-                </div>
-                <!-- /Logo -->
-
-                <!-- Collapse nav button -->
-                <div class="nav-collapse">
-                    <span></span>
-                </div>
-                <!-- /Collapse nav button -->
-            </div>
-
-            <!--  Main navigation  -->
-            <ul class="main-nav nav navbar-nav navbar-right">
-                <li><a href="#about">O mně</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-                <li><a href="http://blackwidow.xyz" target="_blank">BlackWidow</a></li>
-            </ul>
-            <!-- /Main navigation -->
-
+    <!-- Header -->
+    <header id="home">
+        <!-- Background Image -->
+        <div class="bg-img" style="background-image: url('./img/background1.jpg');">
+            <div class="overlay"></div>
         </div>
-    </nav>
-    <!-- /Nav -->
+        <!-- /Background Image -->
 
-    <!-- home wrapper -->
-    <div class="home-wrapper">
+        <!-- Nav -->
+        <nav id="nav" class="navbar nav-transparent">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <!-- Logo -->
+                    <div class="navbar-brand">
+                        <a id="home-logo">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                            <img class="logo-alt" src="img/logo-alt.png" alt="logo-alt">
+                        </a>
+                    </div>
+                    <!-- /Logo -->
+
+                    <!-- Collapse nav button -->
+                    <div class="nav-collapse">
+                        <span></span>
+                    </div>
+                    <!-- /Collapse nav button -->
+                </div>
+
+                <!--  Main navigation  -->
+                <ul class="main-nav nav navbar-nav navbar-right">
+                    <li><a href="#about">O mně</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="https://blackwidow.xyz" target="_blank">BlackWidow</a></li>
+                </ul>
+                <!-- /Main navigation -->
+
+            </div>
+        </nav>
+        <!-- /Nav -->
+
+        <!-- home wrapper -->
+        <div class="home-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <!-- home content -->
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="home-content">
+                            <h1 class="white-text">Jakub Štěrba</h1>
+                            <p class="white-text">Programátor a vývojář - PHP, C++, Python. Majitel a zakladatel
+                                projektu
+                                BlackWidow.
+                            </p>
+                            <button class="main-btn" id="more-btn">Dozvědět se více</button>
+                        </div>
+                    </div>
+                    <!-- /home content -->
+
+                </div>
+            </div>
+        </div>
+        <!-- /home wrapper -->
+
+    </header>
+    <!-- /Header -->
+
+    <!-- About -->
+    <div id="about" class="section md-padding">
+
+        <!-- Container -->
         <div class="container">
+
+            <!-- Row -->
             <div class="row">
 
-                <!-- home content -->
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="home-content">
-                        <h1 class="white-text">Jakub Štěrba</h1>
-                        <p class="white-text">Programátor a vývojář - PHP, C++, Python. Majitel a zakladatel projektu
-                            BlackWidow.
-                        </p>
-                        <button class="main-btn" id="more-btn">Dozvědět se více</button>
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">O mně</h2>
+                </div>
+                <!-- /Section header -->
+
+                <!-- about -->
+                <div class="col-md-4">
+                    <div class="about">
+                        <i class="fa fa-code"></i>
+                        <h3>Programátor</h3>
+                        <p>Nadšenec do programování a vývoje v několika programovacích jazycích, např.: PHP, HTML,
+                            MySQL,
+                            C++, Python, LUA.</p>
                     </div>
                 </div>
-                <!-- /home content -->
+                <!-- /about -->
 
-            </div>
-        </div>
-    </div>
-    <!-- /home wrapper -->
-
-</header>
-<!-- /Header -->
-
-<!-- About -->
-<div id="about" class="section md-padding">
-
-    <!-- Container -->
-    <div class="container">
-
-        <!-- Row -->
-        <div class="row">
-
-            <!-- Section header -->
-            <div class="section-header text-center">
-                <h2 class="title">O mně</h2>
-            </div>
-            <!-- /Section header -->
-
-            <!-- about -->
-            <div class="col-md-4">
-                <div class="about">
-                    <i class="fa fa-code"></i>
-                    <h3>Programátor</h3>
-                    <p>Nadšenec do programování a vývoje v několika programovacích jazycích, např.: PHP, HTML, MySQL,
-                        C++, Python, LUA.</p>
-                </div>
-            </div>
-            <!-- /about -->
-
-            <!-- about -->
-            <div class="col-md-4">
-                <div class="about">
-                    <i class="fa fa-server"></i>
-                    <h3>BlackWidow</h3>
-                    <p>Jsem majitel a zároveň zakladatel projektu BlackWidow, který je aktivní více než 4 roky.</p>
-                    <a href="http://blackwidow.xyz/#about" target="_blank">Dozvědět se více</a>
-                </div>
-            </div>
-            <!-- /about -->
-
-            <!-- about -->
-            <div class="col-md-4">
-                <div class="about">
-                    <i class="fa fa-mortar-board"></i>
-                    <h3>Vyučení</h3>
-                    <p>Jsem vystudovaný elektrotechnik a s programováním mám zkušenosti již skoro šest let.</p>
-                </div>
-            </div>
-            <!-- /about -->
-
-        </div>
-        <!-- /Row -->
-
-    </div>
-    <!-- /Container -->
-
-</div>
-<!-- /About -->
-
-
-<!-- Portfolio -->
-<div id="portfolio" class="section md-padding bg-grey">
-
-    <!-- Container -->
-    <div class="container">
-
-        <!-- Row -->
-        <div class="row">
-
-            <!-- Section header -->
-            <div class="section-header text-center">
-                <h2 class="title">Portfolio</h2>
-            </div>
-            <!-- /Section header -->
-
-            <!-- Work -->
-            <div class="col-md-4 col-xs-6 work">
-                <img class="img-responsive" src="./img/work1.jpg" alt="">
-                <div class="overlay"></div>
-                <div class="work-content">
-                    <span>Server</span>
-                    <h3>BlackWidow</h3>
-                    <div class="work-link">
-                        <a href="http://blackwidow.xyz" target="_blank"><i
-                                class="fa fa-external-link"></i></a>
-                        <a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
+                <!-- about -->
+                <div class="col-md-4">
+                    <div class="about">
+                        <i class="fa fa-server"></i>
+                        <h3>BlackWidow</h3>
+                        <p>Jsem majitel a zároveň zakladatel projektu BlackWidow, který je aktivní více než 4 roky.</p>
+                        <a href="https://blackwidow.xyz/#about" target="_blank">Dozvědět se více</a>
                     </div>
                 </div>
+                <!-- /about -->
+
+                <!-- about -->
+                <div class="col-md-4">
+                    <div class="about">
+                        <i class="fa fa-mortar-board"></i>
+                        <h3>Vyučení</h3>
+                        <p>Jsem vystudovaný elektrotechnik a s programováním mám zkušenosti již skoro šest let.</p>
+                    </div>
+                </div>
+                <!-- /about -->
+
             </div>
-            <!-- /Work -->
+            <!-- /Row -->
 
         </div>
-        <!-- /Row -->
+        <!-- /Container -->
 
     </div>
-    <!-- /Container -->
+    <!-- /About -->
 
-</div>
-<!-- /Portfolio -->
 
-<!-- Numbers -->
-<div id="numbers" class="section sm-padding">
+    <!-- Portfolio -->
+    <div id="portfolio" class="section md-padding bg-grey">
 
-    <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('./img/background2.jpg');">
-        <div class="overlay"></div>
-    </div>
-    <!-- /Background Image -->
+        <!-- Container -->
+        <div class="container">
 
-    <!-- Container -->
-    <div class="container">
+            <!-- Row -->
+            <div class="row">
 
-        <!-- Row -->
-        <div class="row">
-
-            <!-- number -->
-            <div class="col-sm-3 col-xs-6">
-                <div class="number">
-                    <i class="fa fa-terminal"></i>
-                    <h3 class="white-text"><span class="counter" data-count="674">0</span>K</h3>
-                    <span class="white-text">Řádků kódu napsáno</span>
+                <!-- Section header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Portfolio</h2>
                 </div>
-            </div>
-            <!-- /number -->
+                <!-- /Section header -->
 
-            <!-- number -->
-            <div class="col-sm-3 col-xs-6">
-                <div class="number">
-                    <i class="fa fa-bug"></i>
-                    <h3 class="white-text"><span class="counter" data-count="1583">0</span></h3>
-                    <span class="white-text">Chyb odstraněno</span>
+                <!-- Work -->
+                <div class="col-md-4 col-xs-6 work">
+                    <img class="img-responsive" src="./img/work1.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Server</span>
+                        <h3>BlackWidow</h3>
+                        <div class="work-link">
+                            <a href="https://blackwidow.xyz" target="_blank"><i class="fa fa-external-link"></i></a>
+                            <a class="lightbox" href="./img/work1.jpg"><i class="fa fa-search"></i></a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- /number -->
+                <!-- /Work -->
 
-            <!-- number -->
-            <div class="col-sm-3 col-xs-6">
-                <div class="number">
-                    <i class="fa fa-coffee"></i>
-                    <h3 class="white-text"><span class="counter" data-count="92">0</span>K</h3>
-                    <span class="white-text">Hrnků kávy vypito</span>
-                </div>
             </div>
-            <!-- /number -->
-
-            <!-- number -->
-            <div class="col-sm-3 col-xs-6">
-                <div class="number">
-                    <i class="fa fa-group"></i>
-                    <h3 class="white-text"><span class="counter" data-count="1">0</span></h3>
-                    <span class="white-text">Člen v týmu</span>
-                </div>
-            </div>
-            <!-- /number -->
+            <!-- /Row -->
 
         </div>
-        <!-- /Row -->
+        <!-- /Container -->
 
     </div>
-    <!-- /Container -->
+    <!-- /Portfolio -->
 
-</div>
-<!-- /Numbers -->
+    <!-- Numbers -->
+    <div id="numbers" class="section sm-padding">
 
-<!-- Contact -->
-<div id="contact" class="section md-padding">
+        <!-- Background Image -->
+        <div class="bg-img" style="background-image: url('./img/background2.jpg');">
+            <div class="overlay"></div>
+        </div>
+        <!-- /Background Image -->
 
-    <!-- Container -->
-    <div class="container">
+        <!-- Container -->
+        <div class="container">
 
-        <!-- Row -->
-        <div class="row">
+            <!-- Row -->
+            <div class="row">
 
-            <!-- Section-header -->
-            <div class="section-header text-center">
-                <h2 class="title">Kontakt</h2>
-            </div>
-            <!-- /Section-header -->
-
-            <!-- contact -->
-            <div class="col-sm-12">
-                <div class="contact">
-                    <i class="fa fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p><a href="mailto:info@kubasterba.cz">info@kubasterba.cz</a></p>
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-terminal"></i>
+                        <h3 class="white-text"><span class="counter" data-count="674">0</span>K</h3>
+                        <span class="white-text">Řádků kódu napsáno</span>
+                    </div>
                 </div>
+                <!-- /number -->
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-bug"></i>
+                        <h3 class="white-text"><span class="counter" data-count="1583">0</span></h3>
+                        <span class="white-text">Chyb odstraněno</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-coffee"></i>
+                        <h3 class="white-text"><span class="counter" data-count="92">0</span>K</h3>
+                        <span class="white-text">Hrnků kávy vypito</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-group"></i>
+                        <h3 class="white-text"><span class="counter" data-count="1">0</span></h3>
+                        <span class="white-text">Člen v týmu</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
             </div>
-            <!-- /contact -->
+            <!-- /Row -->
 
         </div>
-        <!-- /Row -->
+        <!-- /Container -->
 
     </div>
-    <!-- /Container -->
+    <!-- /Numbers -->
 
-</div>
-<!-- /Contact -->
+    <!-- Contact -->
+    <div id="contact" class="section md-padding">
 
+        <!-- Container -->
+        <div class="container">
 
-<!-- Footer -->
-<footer id="footer" class="sm-padding bg-dark">
+            <!-- Row -->
+            <div class="row">
 
-    <!-- Container -->
-    <div class="container">
-
-        <!-- Row -->
-        <div class="row">
-
-            <div class="col-md-12">
-
-                <!-- footer logo -->
-                <div class="footer-logo">
-                    <a id="footer-logo"><img src="img/logo-alt.png" alt="footer-logo"></a>
+                <!-- Section-header -->
+                <div class="section-header text-center">
+                    <h2 class="title">Kontakt</h2>
                 </div>
-                <!-- /footer logo -->
+                <!-- /Section-header -->
 
-                <!-- footer copyright -->
-                <div class="footer-copyright">
-                    <p>Made by Jakub Štěrba 2018</p>
+                <!-- contact -->
+                <div class="col-sm-12">
+                    <div class="contact">
+                        <i class="fa fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@kubasterba.cz">info@kubasterba.cz</a></p>
+                    </div>
                 </div>
-                <!-- /footer copyright -->
+                <!-- /contact -->
 
             </div>
+            <!-- /Row -->
 
         </div>
-        <!-- /Row -->
+        <!-- /Container -->
 
     </div>
-    <!-- /Container -->
+    <!-- /Contact -->
 
-</footer>
-<!-- /Footer -->
 
-<!-- Back to top -->
-<div id="back-to-top"></div>
-<!-- /Back to top -->
+    <!-- Footer -->
+    <footer id="footer" class="sm-padding bg-dark">
 
-<!-- Preloader -->
-<div id="preloader">
-    <div class="preloader">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <!-- footer logo -->
+                    <div class="footer-logo">
+                        <a id="footer-logo"><img src="img/logo-alt.png" alt="footer-logo"></a>
+                    </div>
+                    <!-- /footer logo -->
+
+                    <!-- footer copyright -->
+                    <div class="footer-copyright">
+                        <p>Made by Jakub Štěrba 2018</p>
+                    </div>
+                    <!-- /footer copyright -->
+
+                </div>
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Back to top -->
+    <div id="back-to-top"></div>
+    <!-- /Back to top -->
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
-</div>
-<!-- /Preloader -->
+    <!-- /Preloader -->
 
-<!-- jQuery Plugins -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
-<script type="text/javascript" src="js/main.min.js"></script>
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery Plugins -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Helpers -->
+    <script src="js/main.min.js"></script>
+    <!-- *********************************************
+         _   _              _   _                   _
+        | | | | ___ _   _  | |_| |__   ___ _ __ ___| |
+        | |_| |/ _ \ | | | | __| '_ \ / _ \ '__/ _ \ |
+        |  _  |  __/ |_| | | |_| | | |  __/ | |  __/_|
+        |_| |_|\___|\__, |  \__|_| |_|\___|_|  \___(_)
+                    |___/
 
+        Lookin' at the source code huh?
+        Be sure to drop me a line! I'd love to chat,
+        whether it's about code, design,
+        dogs, games, or anything in between.
+
+        - Jacob
+
+        ********************************************** -->
 </body>
 
 </html>

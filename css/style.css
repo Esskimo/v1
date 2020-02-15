@@ -1107,3 +1107,9 @@ header {
         transform: scale(0);
     }
 }
+
+.country-selector {
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+}
